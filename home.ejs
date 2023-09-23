@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title> V4U WEBSITE </title>
+        <meta charset = "utf-8">
+        <style>
+            .nav{
+                color: blue;
+                font-size:large;
+                text-decoration: none;
+            }
+            .navigation{
+              padding-left: 900px;
+            }
+            .navigation li{
+              list-style: none;
+              float: left;
+              padding-left: 15px;
+            }
+            .navigation a{
+              display: block;
+              text-decoration: none;
+              color: black;
+            }
+            
+            body{
+                background-image: url(https://wallpapercave.com/wp/wp1886334.jpg);
+                width: 100%;
+                height: 100%;
+                background-repeat: no-repeat;
+                background-size: cover;
+                animation: blink 2s infinite;
+            }
+            
+            img{
+                
+                position: absolute;
+                top: -670px;
+                left: -30px;
+                width: 80px;
+                height: 80px;
+                border-radius: 10px;
+
+            }
+            .button{
+               
+                color: black;
+                padding: 14px 28px;
+                font-size: 16px;
+                cursor: pointer;
+                border-color: #09411a;
+                color: rgb(14, 68, 14);
+                position:absolute;
+                left: 40px;;
+                bottom:40px;
+            }
+            .blink{
+              font-size: 70px;
+              margin-top: 170px;
+            }
+            .log{
+              text-align: center;
+              color:aquamarine;
+              font-size: 25px;
+            }
+
+        </style>
+    </head>
+     <body>
+        <nav class = 'navigation'>
+          <ul>
+            <form action = "homenav" method = "GET">
+            <li>
+              <a class="nav-link" href = ""><h5><input type = "submit" value = "Home"></h5></a>
+            </li></form>
+            <form action = "signupnav" method = "GET">
+              <li>
+                <a class="nav-link" href = ""><h5><input type = "submit" value = "Sign Up"></h5></a>
+              </li></form>
+              <form action = "loginnav" method = "GET">
+                <li>
+                  <a class="nav-link" href = ""><h5><input type = "submit" value = "Login"></h5></a>
+                </li></form>
+            <form action = "aboutnav" method = "GET">
+            <li>
+              <a class = "nav-link" href = ""><h5><input type = "submit" value = "About"></h5></a>
+            </li></form>
+            <form action = "productsnav" method = "GET">
+              <li>
+                <a class="nav-link" href = ""><h5><input type = "submit" value = "Products"></h5></a>
+              </li></form>
+              <form action = "contactnav" method = "GET">
+                <li>
+                  <a class="nav-link" href = ""><h5><input type = "submit" value = "Contact Us"></h5></a>
+                </li></form>
+                <form action = "feedbacknav" method = "GET">
+                  <li>
+                    <a class="nav-link" href = ""><h5><input type = "submit" value = "Feedback"></h5></a>
+                  </li></form>
+                  
+          </ul>
+        </nav>
+        <center><marquee diresction="left" scrollamount="15"><h2 class = "blink">WELCOME TO V4U WEBSITE!!!</h2></marquee></center>
+        
+    
+        <div class="button">
+            <img src="https://vishnu.edu.in/upload_news/newlogo.bmp" width="120" height="120" alt="logo">
+            <button class="button"><a href = "https://www.soilassociation.org/take-action/organic-living/why-organic/" style="color:inherit;">Know Us!</a></button>
+        </div>
+    </body>
+</html>
