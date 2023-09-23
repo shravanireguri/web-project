@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>feedback</title>
+	<style>
+		body{
+			background-image: url(https://th.bing.com/th/id/R.04891bb232e4e6ed5f6e12b240b34e8f?rik=zxjDJpxjloqIJg&riu=http%3a%2f%2fgbgroup.com%2fwp-content%2fuploads%2f2016%2f08%2f2016_august_plant1.jpg&ehk=U6GJ%2bbEdbgGpA9ZBD3wdqWctA0P%2fmd0QcWlH%2bVitDAo%3d&risl=&pid=ImgRaw&r=0);
+			width: 100%;
+			height: 100%;
+			background-size: cover;
+			background-repeat: no-repeat;
+			animation: blink 2s infinite;
+
+		}
+		h2{
+			animation: blink 2s infinite;
+		}
+		.container{
+            position: absolute;
+            right: 40px;
+            margin-top: 70px;
+        }
+
+	</style>
+</head>
+<body>
+
+	<div class="container" style="background-color:transparent; border-radius: 20px;width:auto; display: block;width: 40%;text-align: center;padding-bottom: 20px; padding-top: 20px;">
+		<form action="/feedSubmit" method="GET">
+			<h2><b>GIVE YOUR FEEDBACK HERE..!!</b><br></h2>
+				<label><b>NAME<b></label><br><br>
+				<input type = "text" name="name" required><br><br>
+				<label><b>EMAIL<b></label><br><br>
+				<input type = "text" name="email" required><br><br>
+				<label><b>PHONE NUMBER<b></label><br><br>
+				<input type = "text" name="phone" required><br><br>
+				<label><b>REVIEW<b></label><br><br>
+				<textarea name="review" rows = "4" cols = "50" required></textarea><br><br>
+				<input type = "submit">
+			
+		</form>
+</body>
+</html>
